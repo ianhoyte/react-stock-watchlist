@@ -2,6 +2,8 @@
 
 This is the headway for the stocks watchlist assessment.  Some current features showcase sign up and sign in, firebase database logging and authentication for a userbase. Each user can create a watchlist which is saved to the database.  A user can currently create and delete a watchlist. A user can add "stocks" to each watchlist, however, the entries are currently overwritten as the concatenation between front end and the database has not yet been completed.
 
+The spec required an xml feed from the nasdaq's official site, but I couldn't get the [link](https://www.nasdaq.com/aspxcontent/NasdaqRSS.aspx?data=quotes&symbol=intc) to scrape any info due to CORS.
+
 ## Installation
 
 * `npm i` installs the dependencies
